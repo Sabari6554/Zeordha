@@ -1,0 +1,283 @@
+body{
+    font-family: 'Inter', sans-serif;
+    width: 1360px;
+    margin: auto;
+}
+.container{
+    width: 1150px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/*header nav bar*/
+.header_nav{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    box-shadow: 0px 5px 3px rgb(204, 204, 204);
+}
+.nav_1 img{
+    width: 130px;
+}
+.nav_1{
+    width: 45%;
+    margin: auto;
+}
+.nav_2{
+    width: 45%;
+    margin: auto;
+}
+.nav_2 a{
+    text-decoration: none;
+    color: rgb(131, 131, 131);
+    font-size: 14px;
+    padding-right:40px;
+}
+.nav_2 a:hover{
+    color: rgb(63, 125, 206);
+}
+.nav_2 i{
+    font-size: 17px;
+}
+/*title*/
+.title{
+    text-align: center;
+    padding-top: 50px;
+}
+.title img{
+    width: 420px;
+}
+.title h1{
+    font-size: 46px;
+    font-weight: 500;
+    color: #424242;
+}
+.title h4{
+    font-size: 20px;
+    color: #424242;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.signup {
+    text-decoration: none;
+    border: 1px solid rgb(52, 113, 245);
+    padding: 10px 40px;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(52, 113, 245);
+    border-radius: 5px;
+    font-size: 20px;
+}
+.signup:hover{
+    background-color: rgb(20, 20, 20);
+    border: 1px solid rgb(20, 20, 20);
+}
+/* trophy image section*/
+.trophy{
+    padding-top: 200px;
+}
+.tbox{
+    width: 45%;
+    margin: auto;
+    color: #424242;
+}
+.tbox .lbimg{
+    width: 450px;
+}
+.tbox h2{
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.tbox .uls {
+    width: 48%;
+    margin: auto;
+    padding: 0px 5px;
+}
+.tbox .presslogo{
+    width: 100%;
+}
+/*chart*/
+.chart{
+    text-align: center;
+    padding: 100px;
+}
+.chart img{
+    width: 100%;
+
+}
+.chart h1 {
+    font-size: 35px;
+    font-weight: 500;
+    color: #424242;
+}
+.chart h4{
+    font-size: 20px;
+    color: #424242;
+    font-weight: 400;
+    padding: 5px 330px;
+}
+.samelink{
+    text-decoration: none;
+    color:rgb(52, 113, 245) ;
+    padding-top: 10px;
+    font-weight: 500;
+}
+.samelink:hover{
+    color: #424242;
+}
+/* price*/
+.price{
+    padding: 50px 0px;
+}
+.price_box{
+    width: 40%;
+    margin: auto;
+    color: #424242;
+}
+.price_box1_1{
+    width: 45%;
+    margin: auto;
+    border: 1px solid #c0bdbd;
+    padding: 13px;
+    border-radius: 3px;
+}
+.price_box .head{
+    font-size: 33px;
+    font-weight: 500;
+}
+.price_box h5{
+    font-size: 16px;
+    font-weight: 400;
+}
+.price_box1{
+    width: 50%;
+    margin: auto;
+}
+.price_box1_1 h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 500;
+    color: #424242;
+}
+.price_box1_1 h5{
+    text-align: center;
+    font-weight: 500;
+    color: #424242;
+    font-size: 15px;
+}
+/*varsity*/
+.var_box{
+    width: 45%;
+    margin: auto;
+    padding: 50px 0px;
+}
+.var_box img {
+    width: 440px;
+}
+.var_box h1{
+    font-size: 23px;
+    font-weight: 500;
+    color: #424242;
+}
+.var_box_1 h5{
+    font-weight: 500;
+    color: #424242;
+    font-size: 15px;
+}
+/* account*/
+.account{
+    text-align: center;
+}
+.account h1{
+    font-size: 33px;
+    font-weight: 500;
+    color: #424242;
+}
+.account h5{
+    font-weight: 400;
+    color: #424242;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+/*footer*/
+.footer{
+    padding: 50px 0px;
+}
+.footer_box img{
+    width: 150px;
+}
+.footer_box{
+    width:15%;
+    margin: auto;
+    margin-top: 20px;
+}
+.footer_box p{
+    font-size: 13px;
+    color: #424242;
+}
+.footer_box i{
+    font-size: 20px;
+    color: #424242;
+    padding-left:10px;
+}
+.footer_box i:hover{
+    color: rgb(52, 113, 245);
+}
+.footer_box1{
+    width: 20%;
+    margin: auto;
+}
+.footer_box1 a{
+    text-decoration: none;
+    color:#424242;
+    font-weight: 500;
+}
+.footer_box1 a:hover{
+    color:rgb(52, 113, 245) ;
+}
+.footer_box1 ul {
+    padding-top: -20px;
+}
+.footer_box1 ul li{
+    list-style-type: none;
+    padding-top: 13px;
+}
+.footer_box1 h3{
+    color: #424242;
+    padding-left: 30px;
+    
+}
+.footer_btm{
+    color: #7a7a7a;
+    padding: 50px 100px;
+}
+.footer_btm p{
+    font-size: 11px;
+    padding-bottom: 10px;
+    
+}
+.footer_btm a{
+    text-decoration: none;
+    color:rgb(52, 113, 245) ;
+}
+.footer_btm a:hover{ 
+    color:#292828;
+}
+.smalllink{
+    padding: 0px 100px;
+    text-align: center;
+}
+.smalllink small{
+    padding-left: 20px;
+}
+.smalllink a{
+    text-decoration: none;
+    color: #7a7a7a;
+    padding-bottom: 50px;
+
+}
+.smalllink a:hover{
+    color:rgb(52, 113, 245) ;
+}
